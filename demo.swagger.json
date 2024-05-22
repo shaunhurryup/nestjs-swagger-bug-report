@@ -1,1 +1,48 @@
-{"openapi":"3.0.0","paths":{"/":{"get":{"operationId":"AppController_getHello","parameters":[{"name":"name","required":true,"in":"query","description":"username description","example":"shaun","schema":{"type":"string"}},{"name":"age","required":false,"in":"query","description":"age description","example":35,"schema":{"type":"number"}}],"responses":{"200":{"description":""}}}}},"info":{"title":"nestjs swagger bug resport service","description":"This is description","version":"1.0","contact":{}},"tags":[],"servers":[],"components":{"schemas":{}}}
+{
+    "openapi": "3.0.0",
+    "paths": {
+        "/": {
+            "get": {
+                "operationId": "AppController_getHello",
+                "parameters": [
+                    {
+                        "name": "name",
+                        "required": true,
+                        "in": "query",
+                        "description": "username description",
+                        "example": "shaun",
+                        "schema": {
+                            "type": "string"
+                        }
+                    },
+                    {
+                        "name": "age",
+                        "required": false,
+                        "in": "query",
+                        "description": "age description",
+                        "example": 35,
+                        "schema": {
+                            "type": "number"
+                        }
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": ""
+                    }
+                }
+            }
+        }
+    },
+    "info": {
+        "title": "nestjs swagger bug resport service",
+        "description": "This is description",
+        "version": "1.0",
+        "contact": {}
+    },
+    "tags": [],
+    "servers": [],
+    "components": {
+        "schemas": {}
+    }
+}
